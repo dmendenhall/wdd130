@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Patrick+Hand&display=swap');
+
 body{
     background-color:#ffffff;
+    font-family: "Patrick Hand", sans-serif, "Times New Roman"; 
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header{
@@ -9,6 +15,8 @@ header{
 footer{
     background-color: #f9dc5c;
     color:#000000;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a{
@@ -36,6 +44,7 @@ nav a{
     text-align: center;
     color: #000000;
     text-decoration: none;
+    padding: 35px;
   }
 
 nav a:hover{
@@ -73,6 +82,10 @@ h4{
     background-color: #000000;
     color:#ffffff;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover{
@@ -87,16 +100,24 @@ h4{
 
 .home-title{
     color: #000000;
+    font-family: "Acme", serif, "Times New Roman";
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 .join{
     background-color: #000000;
     color:#ffffff;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join:hover{
@@ -110,12 +131,49 @@ h4{
 
 .msg{
     background-color: #06aed5;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2{
     color:#ffffff;
+    font-family: "Acme", serif, "Times New Roman";
 }
 
 .msg p {
     color:#000000;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+h2{
+    margin: 0;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card {
+    margin: 200px 0;
+}
+
+.camping-card {
+    margin: 200px 0;
+}
+
+.rapids-card {
+    margin: 200px 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.card-img {
+    border: 10px solid #000000;
+}
+
+main section img {
+    box-sizing: border-box;
 }
