@@ -230,7 +230,7 @@ main {
 }
 
 .msg{
-    background-color: #06aed5;
+    background-color: #000000;
     line-height: 1.5em;
     padding: 35px;
     grid-column: 6/10;
@@ -244,7 +244,7 @@ main {
 }
 
 .msg p {
-    color:#000000;
+    color:#f9dc5c;
     font-size: .8em;
     padding-bottom: 15px;
 }
